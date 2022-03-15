@@ -1,0 +1,17 @@
+server:
+  port: 8099
+
+person: 
+  name: "这是dev环境"
+  age: 90  
+  
+spring:
+ thymeleaf:
+    cache: false
+   
+
+logging:
+  config: classpath:logback-spring.xml
+    
+
+  
